@@ -1,0 +1,95 @@
+models/mapobjects/nature/rock1
+{
+    qer_editorimage    models/mapobjects/nature/rock1.png
+    
+	diffusemap         models/mapobjects/nature/rock1.png
+	specularmap	    models/mapobjects/nature/rock1_s.png
+	bumpmap            models/mapobjects/nature/rock1_nm.png
+}
+
+models/mapobjects/nature/grass1
+{
+	qer_editorImage		models/mapobjects/nature/grass1.png
+	twosided
+	noShadows
+	noselfshadow
+	nonsolid
+	translucent
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/grass1.png
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nature/grass3
+{
+	qer_editorImage		models/mapobjects/nature/grass3.png
+	twosided
+	noShadows
+	noselfshadow
+	nonsolid
+	translucent
+
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/grass3.png
+		alphatest 0.5
+		rgbGen vertex
+	}
+}
+
+models/mapobjects/nature/thistle
+{
+	qer_editorImage		models/mapobjects/nature/thistle.png
+	twosided
+	noShadows
+	noselfshadow
+	nonsolid
+	translucent
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/thistle.png
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nature/leaf
+{
+	qer_editorImage		models/mapobjects/nature/leaf.png
+	xmap_backShader		models/mapobjects/nature/leaf_back
+	noShadows
+	noselfshadow
+	nonsolid
+	translucent
+
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/leaf.png
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nature/leaf_back
+{
+	qer_editorImage		models/mapobjects/nature/leaf.png
+	xmap_lightmapBrightness 2
+	xmap_invert
+	noShadows
+	noselfshadow
+	nonsolid
+	translucent
+
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/leaf.png
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nature/trunk
+{
+    qer_editorimage    models/mapobjects/nature/trunk.png
+    
+	diffusemap         models/mapobjects/nature/trunk.png
+}

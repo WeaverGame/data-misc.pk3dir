@@ -1,0 +1,91 @@
+textures/trak/nature/reed1a
+{
+	qer_editorImage		textures/trak/nature/reed1a.png
+	twosided
+	noShadows
+	nonsolid
+	{
+		stage		diffuseMap
+		map		textures/trak/nature/reed1a.png
+		alphatest 0.5
+	}
+	normalMap		textures/trak/nature/reed1_nm.png
+	specularMap		textures/trak/nature/reed1_s.png
+}
+
+textures/trak/nature/reed1b
+{
+	qer_editorImage		textures/trak/nature/reed1b.png
+	twosided
+	noShadows
+	nonsolid
+	{
+		stage		diffuseMap
+		map		textures/trak/nature/reed1b.png
+		alphatest 0.5
+	}
+	normalMap		textures/trak/nature/reed1_nm.png
+	specularMap		textures/trak/nature/reed1_s.png
+}
+
+textures/trak/nature/lilly1
+{
+	qer_editorImage		textures/trak/nature/lilly1.png
+	twosided
+	noShadows
+	nonsolid
+	{
+		stage		diffuseMap
+		map		textures/trak/nature/lilly1.png
+		alphatest 0.5
+	}
+	normalMap		textures/trak/nature/lilly1_nm.png
+	specularMap		textures/trak/nature/lilly1_s.png
+}
+
+textures/trak/nature/watergunk
+{
+	qer_editorImage		textures/trak/nature/watergunk.png
+	twosided
+	noShadows
+	nonsolid
+	{
+		stage		diffuseMap
+		map		textures/trak/nature/watergunk.png
+		alphatest 0.5
+	}
+	normalMap		textures/trak/nature/watergunk_nm.png
+	specularMap		textures/trak/nature/watergunk_s.png
+}
+
+textures/trak/nature/grass2
+{
+	qer_editorImage		textures/trak/nature/grass2.png
+//	xmap_surfacemodel        models/mapobjects/nature/grass3.ase 32 0.3 0.8 2.0 -10.0 10.0 1
+	{
+		stage		diffuseMap
+		map		textures/trak/nature/grass2.tga
+	}
+	normalMap		textures/trak/nature/grass2_nm.png
+}
+
+
+textures/trak/nature/blendedgrass
+{
+	qer_editorImage		textures/trak/nature/grass2.png
+
+	{
+		blend	diffusemap
+		map		textures/trak/nature/grass2a.tga
+		inverseVertexColor
+		scale 3, 3
+	}
+
+	{
+		blend 	diffusemap
+		map		textures/trak/nature/grass2.tga
+		VertexColor
+		scale 3, 3
+	}
+
+}

@@ -1,0 +1,193 @@
+textures/trak/trak8/beam
+{
+	noshadows
+	translucent
+	twosided
+	nonsolid
+	deformvertexes autosprite2
+	qer_editorimage		textures/trak/trak8/beam.tga
+	{
+		blend		add
+		map		textures/trak/trak8/beam.tga
+	}
+}
+
+textures/trak/trak8/brick
+{
+	qer_editorImage		textures/trak/trak8/brick.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/brick.png
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak8/brick_nm.png
+	specularMap		textures/trak/trak8/brick_s.png
+}
+
+textures/trak/trak8/metaltrim1
+{
+	qer_editorImage		textures/trak/trak8/metaltrim1.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/metaltrim1.png
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak8/metaltrim1_nm.png
+	specularMap		textures/trak/trak8/metaltrim1.png
+}
+
+textures/trak/trak8/cobblestone
+{
+	qer_editorImage		textures/trak/trak8/cobblestone.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/cobblestone.png
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak8/cobblestone_nm.png
+	specularMap		textures/trak/trak8/cobblestone_s.png
+}
+
+textures/trak/trak8/metaltrim2
+{
+	qer_editorImage		textures/trak/trak8/metaltrim2.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/metaltrim2.png
+		depthScale	-0.04
+	}
+	normalMap		textures/trak/trak8/metaltrim2_nm.png
+	specularMap		textures/trak/trak8/metaltrim2_s.png
+}
+
+textures/trak/trak8/stonebase
+{
+	qer_editorImage		textures/trak/trak8/stonebase.png
+
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/stonebase.png
+	}
+	normalMap		textures/trak/trak8/stonebase_nm.png
+	specularMap		textures/trak/trak8/stonebase_s.png
+}
+
+textures/trak/trak8/stonetile1
+{
+	qer_editorImage		textures/trak/trak8/stonetile1.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/stonetile1.png
+		depthScale	-0.04
+	}
+	normalMap		textures/trak/trak8/stonetile1_nm.png
+	specularMap		textures/trak/trak8/stonetile1_s.png
+}
+
+textures/trak/trak8/stonetile1a
+{
+	qer_editorImage		textures/trak/trak8/stonetile1a.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/stonetile1a.png
+		depthScale	-0.04
+	}
+	normalMap		textures/trak/trak8/stonetile1_nm.png
+	specularMap		textures/trak/trak8/stonetile1_s.png
+}
+
+textures/trak/trak8/stonetile2
+{
+	qer_editorImage		textures/trak/trak8/stonetile2.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/stonetile2.png
+		depthScale	-0.04
+	}
+	normalMap		textures/trak/trak8/stonetile2_nm.png
+	specularMap		textures/trak/trak8/stonetile2_s.png
+}
+
+textures/trak/trak8/stonewall1
+{
+	qer_editorImage		textures/trak/trak8/stonewall1.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/stonewall1.png
+		depthScale	-0.02
+	}
+	normalMap		textures/trak/trak8/stonewall1_nm.png
+	specularMap		textures/trak/trak8/stonewall1_s.png
+}
+
+textures/trak/trak8/stonewall1a
+{
+	qer_editorImage		textures/trak/trak8/stonewall1a.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/stonewall1a.png
+		depthScale	-0.02
+	}
+	normalMap		textures/trak/trak8/stonewall1_nm.png
+	specularMap		textures/trak/trak8/stonewall1_s.png
+}
+
+textures/trak/trak8/stonewall2
+{
+	qer_editorImage		textures/trak/trak8/stonewall2.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/stonewall2.png
+		depthScale	-0.02
+	}
+	normalMap		textures/trak/trak8/stonewall2_nm.png
+}
+
+textures/trak/trak8/wall1
+{
+	qer_editorImage		textures/trak/trak8/wall1.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/wall1.png
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak8/wall1_nm.png
+	specularMap		textures/trak/trak8/wall1_s.png
+}
+
+
+textures/trak/trak8/wood1
+{
+	qer_editorImage		textures/trak/trak8/wood1.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/wood1.png
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak8/wood1_nm.png
+	specularMap		textures/trak/trak8/wood1_s.png
+}

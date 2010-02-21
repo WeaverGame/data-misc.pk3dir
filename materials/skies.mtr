@@ -1,0 +1,21 @@
+textures/hipshot_sky/miramar_bow
+{
+	qer_editorimage cubemaps/hipshot/miramar_nz.png
+
+	noFragment
+	noshadows
+	forceOpaque				
+	noimpact
+	sky
+	nolightmap
+
+	xmap_sun 1 1 0.9 300 315 70
+	xmap_lightRGB 1 1 0.9
+	xmap_skylight 600 3
+
+	{ 
+		stage skyboxMap
+		noPicMip
+		cubeMap cubemaps/hipshot/miramar
+	}
+}
