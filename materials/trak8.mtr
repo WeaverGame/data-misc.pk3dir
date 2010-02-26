@@ -1,3 +1,12 @@
+textures/trak/trak8/basewall1a
+{
+    qer_editorimage    models/mapobjects/feudal/basewall1a.png
+    
+	diffusemap         models/mapobjects/feudal/basewall1a.png
+	specularmap	    	models/mapobjects/feudal/basewall1a_s.png
+	bumpmap            models/mapobjects/feudal/basewall1a_nm.png
+}
+
 textures/trak/trak8/beam
 {
 	noshadows

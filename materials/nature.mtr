@@ -7,6 +7,40 @@ models/mapobjects/nature/rock1
 	bumpmap            models/mapobjects/nature/rock1_nm.png
 }
 
+models/mapobjects/nature/fernleaf
+{
+	qer_editorImage		models/mapobjects/nature/fernleaf.tga
+	xmap_backShader		models/mapobjects/nature/fernleaf_back
+	xmap_lightmapBrightness 2
+	noShadows
+	noselfshadow
+	nonsolid
+	translucent
+
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/fernleaf.tga
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nature/fernleaf_back
+{
+	qer_editorImage		models/mapobjects/nature/fernleaf.tga
+	xmap_lightmapBrightness 2
+	xmap_invert
+	noShadows
+	noselfshadow
+	nonsolid
+	translucent
+
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/fernleaf.tga
+		alphatest 0.5
+	}
+}
+
 models/mapobjects/nature/grass1
 {
 	qer_editorImage		models/mapobjects/nature/grass1.png
@@ -25,7 +59,7 @@ models/mapobjects/nature/grass1
 models/mapobjects/nature/grass3
 {
 	qer_editorImage		models/mapobjects/nature/grass3.png
-	twosided
+	xmap_backShader		models/mapobjects/nature/grass3_back
 	noShadows
 	noselfshadow
 	nonsolid
@@ -35,7 +69,23 @@ models/mapobjects/nature/grass3
 		stage		diffuseMap
 		map		models/mapobjects/nature/grass3.png
 		alphatest 0.5
-		rgbGen vertex
+	}
+}
+
+models/mapobjects/nature/grass3_back
+{
+	qer_editorImage		models/mapobjects/nature/grass3.png
+	xmap_lightmapBrightness 2
+	xmap_invert
+	noShadows
+	noselfshadow
+	nonsolid
+	translucent
+
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/grass3.png
+		alphatest 0.5
 	}
 }
 

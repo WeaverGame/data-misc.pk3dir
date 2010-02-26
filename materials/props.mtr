@@ -67,12 +67,25 @@ models/mapobjects/props/flag
     qer_editorimage    models/mapobjects/props/flag.png
 	twosided
 	noshadows
-	translucent
+	noselfshadow
     
 	diffusemap         models/mapobjects/props/flag.png
 	specularmap	    	models/mapobjects/props/flag_s.png
 	bumpmap            models/mapobjects/props/flag_nm.png
 }
+
+models/mapobjects/props/flag2
+{
+    qer_editorimage    models/mapobjects/props/flag.png
+	noshadows
+	noselfshadow
+    
+	diffusemap         models/mapobjects/props/flag.png
+	specularmap	    	models/mapobjects/props/flag_s.png
+	bumpmap            models/mapobjects/props/flag_nm.png
+}
+
+
 
 models/mapobjects/props/shelf1
 {

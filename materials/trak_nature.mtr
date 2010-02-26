@@ -73,6 +73,9 @@ textures/trak/nature/grass2
 textures/trak/nature/blendedgrass
 {
 	qer_editorImage		textures/trak/nature/grass2.png
+	xmap_surfacemodel        models/mapobjects/nature/fern1.ase 80 0.3 0.8 2.0 -10.0 10.0 1
+	xmap_surfacemodel        models/mapobjects/nature/grass3.ase 40 0.3 0.5 1.0 -10.0 10.0 1
+	xmap_surfacemodel        models/mapobjects/nature/thistle.ase 20 0.3 0.8 1.5 -10.0 10.0 1
 
 	{
 		blend	diffusemap
