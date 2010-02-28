@@ -15,7 +15,6 @@ models/mapobjects/nature/fernleaf
 	noShadows
 	noselfshadow
 	nonsolid
-	translucent
 
 	{
 		stage		diffuseMap
@@ -32,7 +31,6 @@ models/mapobjects/nature/fernleaf_back
 	noShadows
 	noselfshadow
 	nonsolid
-	translucent
 
 	{
 		stage		diffuseMap
@@ -48,7 +46,7 @@ models/mapobjects/nature/grass1
 	noShadows
 	noselfshadow
 	nonsolid
-	translucent
+
 	{
 		stage		diffuseMap
 		map		models/mapobjects/nature/grass1.png
@@ -63,7 +61,7 @@ models/mapobjects/nature/grass3
 	noShadows
 	noselfshadow
 	nonsolid
-	translucent
+
 
 	{
 		stage		diffuseMap
@@ -80,7 +78,6 @@ models/mapobjects/nature/grass3_back
 	noShadows
 	noselfshadow
 	nonsolid
-	translucent
 
 	{
 		stage		diffuseMap
@@ -96,7 +93,7 @@ models/mapobjects/nature/thistle
 	noShadows
 	noselfshadow
 	nonsolid
-	translucent
+
 	{
 		stage		diffuseMap
 		map		models/mapobjects/nature/thistle.png
@@ -111,7 +108,7 @@ models/mapobjects/nature/leaf
 	noShadows
 	noselfshadow
 	nonsolid
-	translucent
+
 
 	{
 		stage		diffuseMap
@@ -128,7 +125,7 @@ models/mapobjects/nature/leaf_back
 	noShadows
 	noselfshadow
 	nonsolid
-	translucent
+
 
 	{
 		stage		diffuseMap
