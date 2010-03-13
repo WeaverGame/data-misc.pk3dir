@@ -52,6 +52,14 @@ models/mapobjects/props/book1a_red
 	bumpmap            models/mapobjects/props/book1a_nm.png
 }
 
+models/mapobjects/props/cart1
+{
+    qer_editorimage    models/mapobjects/props/cart1.png
+    
+	diffusemap         models/mapobjects/props/cart1.png
+	specularmap	    	models/mapobjects/props/cart1_s.png
+	bumpmap            models/mapobjects/props/cart1_nm.png
+}
 
 models/mapobjects/props/chest2
 {
