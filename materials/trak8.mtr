@@ -7,6 +7,16 @@ textures/trak/trak8/basewall1a
 	bumpmap            models/mapobjects/feudal/basewall1a_nm.png
 }
 
+textures/trak/trak8/basewall1d
+{
+    qer_editorimage    models/mapobjects/feudal/basewall1d.png
+    
+	diffusemap         models/mapobjects/feudal/basewall1d.png
+	specularmap	    	models/mapobjects/feudal/basewall1d_s.png
+	bumpmap            models/mapobjects/feudal/basewall1d_nm.png
+}
+
+
 textures/trak/trak8/beam
 {
 	noshadows

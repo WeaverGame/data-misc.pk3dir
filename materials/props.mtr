@@ -82,6 +82,17 @@ models/mapobjects/props/flag
 	bumpmap            models/mapobjects/props/flag_nm.png
 }
 
+models/mapobjects/props/flag_long1
+{
+    qer_editorimage    models/mapobjects/props/flag_long1.png
+	twosided
+	noshadows
+	noselfshadow
+    
+	diffusemap         models/mapobjects/props/flag_long1.png
+	bumpmap            models/mapobjects/props/flag_long1_nm.png
+}
+
 models/mapobjects/props/flag2
 {
     qer_editorimage    models/mapobjects/props/flag.png
