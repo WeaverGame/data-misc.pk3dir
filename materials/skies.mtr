@@ -11,7 +11,7 @@ textures/hipshot_sky/miramar_bow
 
 	xmap_sun 1 1 0.9 300 315 70
 	xmap_lightRGB 1 1 0.9
-	xmap_skylight 600 3
+//	xmap_skylight 600 3
 
 	{ 
 		stage skyboxMap

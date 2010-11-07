@@ -1,0 +1,143 @@
+textures/trak/trak7/vpanel1
+{
+	qer_editorImage		textures/trak/trak7/vpanel1.tga
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak7/vpanel1.tga
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak7/vpanel1_nm.tga
+	specularMap		textures/trak/trak7/vpanel1_gloss.tga
+}
+
+textures/trak/trak7/panel2
+{
+	qer_editorImage		textures/trak/trak7/panel2.tga
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak7/panel2.tga
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak7/panel2_nm.tga
+	specularMap		textures/trak/trak7/panel2_gloss.tga
+}
+
+textures/trak/trak7/wall1
+{
+	qer_editorImage		textures/trak/trak7/wall1.tga
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak7/wall1.tga
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak7/wall1_nm.tga
+	specularMap		textures/trak/trak7/wall1_gloss.tga
+}
+
+textures/trak/trak7/wall1b
+{
+	qer_editorImage		textures/trak/trak7/wall1b.tga
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak7/wall1b.tga
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak7/wall1_nm.tga
+	specularMap		textures/trak/trak7/wall1_gloss.tga
+}
+
+textures/trak/trak7/tile1
+{
+	qer_editorImage		textures/trak/trak7/tile1.tga
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak7/tile1.tga
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak7/tile1_nm.tga
+	specularMap		textures/trak/trak7/tile1_gloss.tga
+}
+
+textures/trak/trak7/tile1a
+{
+	qer_editorImage		textures/trak/trak7/tile1a.tga
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak7/tile1a.tga
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak7/tile1_nm.tga
+	specularMap		textures/trak/trak7/tile1_gloss.tga
+}
+
+textures/trak/trak7/vent1
+{
+	qer_editorImage		textures/trak/trak7/vent1.tga
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak7/vent1.tga
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak7/vent1_nm.tga
+	specularMap		textures/trak/trak7/vent1_gloss.tga
+}
+
+textures/trak/trak7/pipe1
+{
+	qer_editorImage		textures/trak/trak7/pipe1.tga
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak7/pipe1.tga
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak7/pipe1_nm.tga
+	specularMap		textures/trak/trak7/pipe1_gloss.tga
+}
+
+textures/trak/trak7/wallplain1
+{
+	qer_editorImage		textures/trak/trak7/wallplain1.tga
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak7/wallplain1.tga
+		depthScale	-0.05
+	}
+	normalMap		textures/trak/trak7/wallplain1_nm.tga
+	specularMap		textures/trak/trak7/wallplain1_s.tga
+}
+
+textures/trak/trak7/treadplate1
+{
+    qer_editorimage    textures/trak/trak7/treadplate1.png
+    
+	diffusemap         textures/trak/trak7/treadplate1.png
+	specularmap	    	textures/trak/trak7/treadplate1_gloss.png
+	bumpmap            textures/trak/trak7/treadplate1_nm.png
+}
+
+textures/trak/trak7/tile2
+{
+    qer_editorimage    textures/trak/trak7/tile2.png
+    
+	diffusemap         textures/trak/trak7/tile2.png
+	specularmap	    	textures/trak/trak7/tile2_s.png
+	bumpmap            textures/trak/trak7/tile2_nm.png
+}
