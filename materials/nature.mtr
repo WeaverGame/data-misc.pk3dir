@@ -14,6 +14,7 @@ models/mapobjects/nature/fernleaf
 	xmap_lightmapBrightness 2
 	noShadows
 	noselfshadow
+	translucent
 	nonsolid
 
 	{
@@ -30,6 +31,7 @@ models/mapobjects/nature/fernleaf_back
 	xmap_invert
 	noShadows
 	noselfshadow
+	translucent
 	nonsolid
 
 	{
@@ -52,6 +54,14 @@ models/mapobjects/nature/grass1
 		map		models/mapobjects/nature/grass1.png
 		alphatest 0.5
 	}
+}
+
+textures/trak/nature/grass2
+{
+    qer_editorimage    textures/trak/nature/grass2.png
+    
+	diffusemap         textures/trak/nature/grass2.png
+	bumpmap            textures/trak/nature/grass2_nm.png
 }
 
 models/mapobjects/nature/grass3
@@ -134,9 +144,49 @@ models/mapobjects/nature/leaf_back
 	}
 }
 
+textures/trak/nature/leaf1
+{
+	qer_editorImage		textures/trak/nature/leaf1.png
+	noShadows
+	noselfshadow
+	translucent
+	noimpact
+	nonsolid
+	deformvertexes autosprite
+	deformVertexes wave 30 sin 0 8 0 .2 
+	xmap_lightmapBrightness 0
+//	xmap_lightmapAxis z
+	xmap_vertexScale 1
+
+	{
+		stage		diffusemap
+		map		textures/trak/nature/leaf1.tga
+		depthwrite
+		rgbGen identity
+		alphatest 0.5
+	}
+
+  { 
+stage _lightmap
+  tcgen lightmap
+  map _lightmap
+  blendfunc gl_dst_color gl_src_color
+  rgbGen identity
+  }
+
+}
+
 models/mapobjects/nature/trunk
 {
     qer_editorimage    models/mapobjects/nature/trunk.png
     
 	diffusemap         models/mapobjects/nature/trunk.png
 }
+
+textures/trak/nature/bark
+{
+    qer_editorimage    textures/trak/nature/bark.png
+    
+	diffusemap         textures/trak/nature/bark.png
+}
+

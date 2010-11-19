@@ -142,6 +142,49 @@ textures/trak/trak8/stonetile2
 	normalMap		textures/trak/trak8/stonetile2_nm.png
 }
 
+textures/trak/trak8/stonetile3
+{
+	qer_editorImage		textures/trak/trak8/stonetile3.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/stonetile3.png
+		depthScale	-0.04
+	}
+	specularMap		textures/trak/trak8/stonetile3_s.png
+	normalMap		textures/trak/trak8/stonetile3_nm.png
+}
+
+textures/trak/trak8/stonetrim1
+{
+	qer_editorImage		textures/trak/trak8/stonetrim1.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/stonetrim1.png
+		depthScale	-0.04
+	}
+	specularMap		textures/trak/trak8/stonetrim1_s.png
+	normalMap		textures/trak/trak8/stonetrim1_nm.png
+}
+
+textures/trak/trak8/stonetrim2a
+{
+	qer_editorImage		textures/trak/trak8/stonetrim2a.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/stonetrim2a.png
+		depthScale	-0.04
+	}
+	specularMap		textures/trak/trak8/stonetrim2_s.png
+	normalMap		textures/trak/trak8/stonetrim2_nm.png
+}
+
+
 textures/trak/trak8/stonewall1
 {
 	qer_editorImage		textures/trak/trak8/stonewall1.png
@@ -226,14 +269,6 @@ textures/trak/trak8/wood2
 	normalMap		textures/trak/trak8/wood2_nm.png
 }
 
-textures/trak/trak8/skull
-{
-    qer_editorimage    textures/trak/trak8/skull.png
-    
-	diffusemap         textures/trak/trak8/skull.png
-	specularmap	    	textures/trak/trak8/skull_s.png
-	bumpmap            textures/trak/trak8/skull_nm.png
-}
 
 textures/trak/trak8/wall2
 {
@@ -251,4 +286,62 @@ textures/trak/trak8/wall2a
 	diffusemap         textures/trak/trak8/wall2a.png
 	specularmap	    	textures/trak/trak8/wall2_s.png
 	bumpmap            textures/trak/trak8/wall2_nm.png
+}
+
+textures/trak/trak8/wall2b
+{
+    qer_editorimage    textures/trak/trak8/wall2b.png
+    
+	diffusemap         textures/trak/trak8/wall2b.png
+	specularmap	    	textures/trak/trak8/wall2_s.png
+	bumpmap            textures/trak/trak8/wall2_nm.png
+}
+
+
+textures/trak/trak8/render
+{
+    qer_editorimage    textures/trak/trak8/render.png
+	xmap_lightmapSampleOffset 8
+	xmap_splotchFix
+    
+	diffusemap         textures/trak/trak8/render.png
+	specularmap	    	textures/trak/trak8/render_s.png
+	bumpmap            textures/trak/trak8/render_nm.png
+}
+
+textures/trak/trak8/window
+{
+    qer_editorimage    textures/trak/trak8/window.png
+    
+	diffusemap         textures/trak/trak8/window.png
+	specularmap	    	textures/trak/trak8/window.png
+	bumpmap            textures/trak/trak8/window_nm.png
+}
+
+
+textures/trak/trak8/wood2_butt
+{
+    qer_editorimage    textures/trak/trak8/wood2_butt.png
+    
+	diffusemap         textures/trak/trak8/wood2_butt.png
+	specularmap	    	textures/trak/trak8/wood2_butt_s.png
+	bumpmap            textures/trak/trak8/wood2_butt_nm.png
+}
+
+textures/trak/trak8/wood2b
+{
+    qer_editorimage    textures/trak/trak8/wood2b.png
+    
+	diffusemap         textures/trak/trak8/wood2b.png
+	specularmap	    	textures/trak/trak8/wood2_s.png
+	bumpmap            textures/trak/trak8/wood2_nm.png
+}
+
+textures/trak/trak8/shingles
+{
+    qer_editorimage    textures/trak/trak8/shingles.png
+    
+	diffusemap         textures/trak/trak8/shingles.png
+	specularmap	    	textures/trak/trak8/shingles_s.png
+	bumpmap            textures/trak/trak8/shingles_nm.png
 }
