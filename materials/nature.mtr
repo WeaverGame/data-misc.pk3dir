@@ -7,6 +7,95 @@ models/mapobjects/nature/rock1
 	bumpmap            models/mapobjects/nature/rock1_nm.png
 }
 
+textures/trak/nature/rock
+{
+    qer_editorimage    textures/trak/nature/rock.png
+		xmap_vertexscale 2
+    
+	diffusemap         textures/trak/nature/rock.png
+	specularmap	    textures/trak/nature/rock_s.png
+	bumpmap            textures/trak/nature/rock_nm.png
+}
+
+textures/trak/nature/dirt1
+{
+	qer_editorimage    textures/trak/nature/dirt1.png
+	xmap_surfaceModel models/mapobjects/terrain_stones/small_rock_1a.ase 64 0.02 0.3 1.5 0 25 1    
+	xmap_surfaceModel models/mapobjects/nature/thistle.ase 64 0.05 0.3 1.5 0 25 1    
+	xmap_surfaceModel models/mapobjects/nature/grass4.ase 32 0.3 0.3 1.5 0 25 1    
+
+	diffusemap         textures/trak/nature/dirt1.png
+	specularmap	    textures/trak/nature/dirt1_s.png
+	bumpmap            textures/trak/nature/dirt1_nm.png
+}
+
+textures/trak/nature/basegrass1
+{
+	qer_editorimage    textures/trak/nature/basegrass1.png
+//	xmap_surfaceModel models/mapobjects/terrain_stones/small_rock_1a.ase 64 0.02 0.3 1.5 0 25 1    
+//	xmap_surfaceModel models/mapobjects/nature/thistle.ase 64 0.05 0.3 1.5 0 25 1    
+//	xmap_surfaceModel models/mapobjects/nature/grass4.ase 32 0.3 0.3 1.5 0 25 1    
+
+	diffusemap         textures/trak/nature/basegrass1.png
+	specularmap	    textures/trak/nature/basegrass1_s.png
+	bumpmap            textures/trak/nature/basegrass1_nm.png
+}
+
+
+textures/trak/nature/grass3
+{
+	qer_editorImage		textures/trak/nature/grass3.tga
+	noShadows
+	noselfshadow
+	nonsolid
+	deformvertexes autosprite2
+	xmap_vertexscale 2
+
+
+	{
+		stage		diffuseMap
+		map		textures/trak/nature/grass3.tga
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nature/grass4
+{
+	qer_editorImage		models/mapobjects/nature/grass4.tga
+	xmap_backshader		models/mapobjects/nature/grass4_inv
+	nonsolid
+	noshadows
+	noselfshadow
+	backsided
+	alphashadow
+
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/grass4.tga
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nature/grass4_inv
+{
+	qer_editorImage		models/mapobjects/nature/grass4.tga
+	nonsolid
+	noShadows
+	noselfshadow
+	backsided
+	alphashadow
+
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/grass4.tga
+		alphatest 0.5
+	}
+	bumpmap            textures/common/nullinv_nm.png
+}
+
+
+
+
 models/mapobjects/nature/fernleaf
 {
 	qer_editorImage		models/mapobjects/nature/fernleaf.tga
@@ -59,6 +148,7 @@ models/mapobjects/nature/grass1
 textures/trak/nature/grass2
 {
     qer_editorimage    textures/trak/nature/grass2.png
+	noshadows
     
 	diffusemap         textures/trak/nature/grass2.png
 	bumpmap            textures/trak/nature/grass2_nm.png
@@ -175,6 +265,40 @@ stage _lightmap
   }
 
 }
+
+textures/trak/nature/leaf1_nosprite
+{
+	qer_editorImage		textures/trak/nature/leaf1.png
+	xmap_backshader textures/trak/nature/leaf1_nosprite_inv
+	noShadows
+	noselfshadow
+	alphashadow
+
+	{
+		stage		diffusemap
+		map		textures/trak/nature/leaf1.tga
+		alphatest 0.5
+	}
+}
+
+textures/trak/nature/leaf1_nosprite_inv
+{
+	qer_editorImage		textures/trak/nature/leaf1.png
+	xmap_backshader textures/trak/nature/leaf1_nosprite_inv
+	noShadows
+	noselfshadow
+	backsided
+	alphashadow
+
+	{
+		stage		diffusemap
+		map		textures/trak/nature/leaf1.tga
+		alphatest 0.5
+	}
+	bumpmap            textures/common/nullinv_nm.png
+}
+
+
 
 models/mapobjects/nature/trunk
 {

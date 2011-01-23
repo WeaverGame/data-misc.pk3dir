@@ -87,6 +87,15 @@ textures/trak/trak8/metaltrim2
 	normalMap		textures/trak/trak8/metaltrim2_nm.png
 }
 
+textures/trak/trak8/shingles2a
+{
+    qer_editorimage    textures/trak/trak8/shingles2a.png
+    
+	diffusemap         textures/trak/trak8/shingles2a.png
+	specularmap	    	textures/trak/trak8/shingles2a_s.png
+	bumpmap            textures/trak/trak8/shingles2a_nm.png
+}
+
 textures/trak/trak8/stonebase
 {
 	qer_editorImage		textures/trak/trak8/stonebase.png
@@ -344,4 +353,13 @@ textures/trak/trak8/shingles
 	diffusemap         textures/trak/trak8/shingles.png
 	specularmap	    	textures/trak/trak8/shingles_s.png
 	bumpmap            textures/trak/trak8/shingles_nm.png
+}
+
+textures/trak/trak8/shingles2
+{
+    qer_editorimage    textures/trak/trak8/shingles2.png
+    
+	diffusemap         textures/trak/trak8/shingles2.png
+	specularmap	    	textures/trak/trak8/shingles2_s.png
+	bumpmap            textures/trak/trak8/shingles2_nm.png
 }
