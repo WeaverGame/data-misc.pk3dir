@@ -1,0 +1,7 @@
+models/mapobjects/feudal/door1
+{
+	qer_editorimage 	models/mapobjects/feudal/door1.png
+	diffusemap		models/mapobjects/feudal/door1.png
+	bumpmap 		models/mapobjects/feudal/door1_nm.png
+	specularmap		models/mapobjects/feudal/door1_s.png
+}
