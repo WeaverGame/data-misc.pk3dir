@@ -1,0 +1,209 @@
+models/mapobjects/nobiax/grass1a
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1a.tga
+	xmap_backshader models/mapobjects/nobiax/grass1a_inv
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1a.tga
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nobiax/grass1a_inv
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1a.tga
+	backsided
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1a.tga
+		alphatest 0.5
+	}
+		bumpmap            textures/common/nullinv_nm.png
+}
+
+models/mapobjects/nobiax/grass1b
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1b.tga
+	xmap_backshader models/mapobjects/nobiax/grass1b_inv
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1b.tga
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nobiax/grass1b_inv
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1b.tga
+	backsided
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1b.tga
+		alphatest 0.5
+	}
+		bumpmap            textures/common/nullinv_nm.png
+}
+
+models/mapobjects/nobiax/grass1c
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1c.tga
+	xmap_backshader models/mapobjects/nobiax/grass1c_inv
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1c.tga
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nobiax/grass1c_inv
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1c.tga
+	backsided
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1c.tga
+		alphatest 0.5
+	}
+		bumpmap            textures/common/nullinv_nm.png
+}
+
+models/mapobjects/nobiax/grass1d
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1d.tga
+	xmap_backshader models/mapobjects/nobiax/grass1d_inv
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1d.tga
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nobiax/grass1d_inv
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1d.tga
+	backsided
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1d.tga
+		alphatest 0.5
+	}
+		bumpmap            textures/common/nullinv_nm.png
+}
+
+models/mapobjects/nobiax/grass1e
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1e.tga
+	xmap_backshader models/mapobjects/nobiax/grass1e_inv
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1e.tga
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nobiax/grass1e_inv
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1e.tga
+	backsided
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1e.tga
+		alphatest 0.5
+	}
+		bumpmap            textures/common/nullinv_nm.png
+}
+
+models/mapobjects/nobiax/grass1f
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1f.tga
+	xmap_backshader models/mapobjects/nobiax/grass1f_inv
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1f.tga
+		alphatest 0.5
+	}
+}
+
+models/mapobjects/nobiax/grass1f_inv
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1f.tga
+	backsided
+	noShadows
+	noselfshadow
+	alphashadow
+	xmap_forceMeta
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1f.tga
+		alphatest 0.5
+	}
+		bumpmap            textures/common/nullinv_nm.png
+}

@@ -82,9 +82,9 @@ textures/trak/nature/grass2
 textures/trak/nature/blendedgrass
 {
     qer_editorimage    textures/trak/nature/dirt2.png
-	xmap_surfacemodel        models/mapobjects/nature/fern1.ase 80 0.1 0.8 1.5 -10.0 10.0 1
-	xmap_surfacemodel        models/mapobjects/nature/grass4.ase 40 0.3 0.5 1.0 -10.0 10.0 1
-	xmap_surfacemodel        models/mapobjects/nature/thistle.ase 20 0.05 0.8 1.5 -10.0 10.0 1
+	xmap_surfacemodel        models/mapobjects/nobiax/grass1a.ase 20 0.02 0.8 1.5 -10.0 10.0 1
+	xmap_surfacemodel        models/mapobjects/nature/grass1b.ase 20 0.02 0.8 1.5 -10.0 10.0 1
+	xmap_surfacemodel        models/mapobjects/nature/grass1c.ase 20 0.02 0.8 1.5 -10.0 10.0 1
 
 	diffusemap         textures/trak/nature/dirt2.png
 	specularmap	    	textures/trak/nature/dirt2_s.png

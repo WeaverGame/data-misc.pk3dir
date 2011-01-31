@@ -45,6 +45,15 @@ textures/trak/trak8/brick
 	normalMap		textures/trak/trak8/brick_nm.png
 }
 
+textures/trak/trak8/cobblestone2
+{
+    qer_editorimage    textures/trak/trak8/cobblestone2.png
+    
+	diffusemap         textures/trak/trak8/cobblestone2.png
+	specularmap	    	textures/trak/trak8/cobblestone2_s.png
+	bumpmap            textures/trak/trak8/cobblestone2_nm.png
+}
+
 textures/trak/trak8/metaltrim1
 {
 	qer_editorImage		textures/trak/trak8/metaltrim1.png
