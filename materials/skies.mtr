@@ -19,3 +19,25 @@ textures/hipshot_sky/miramar_bow
 		cubeMap cubemaps/hipshot/miramar
 	}
 }
+
+textures/hipshot_sky/grimmnight
+{
+	qer_editorimage	cubemaps/hipshot/grimmnight_px.png
+	
+	noFragment
+	noshadows
+	forceOpaque				
+	noimpact
+	sky
+	nolightmap
+	
+	xmap_sunExt 0.6 0.8 1 220 72 30 1 16
+	xmap_lightRGB 0.6 0.8 1
+	xmap_skylight 240 3
+
+	{
+		stage skyboxMap
+		noPicMip
+		cubeMap	cubemaps/hipshot/grimmnight
+	}
+}

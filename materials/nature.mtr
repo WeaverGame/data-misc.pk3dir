@@ -63,11 +63,12 @@ models/mapobjects/nature/grass4
 {
 	qer_editorImage		models/mapobjects/nature/grass4.tga
 	xmap_backshader		models/mapobjects/nature/grass4_inv
-	nonsolid
 	noshadows
 	noselfshadow
-	backsided
 	alphashadow
+	xmap_lightmapSampleOffset 8
+	xmap_forceMeta
+	q3map_lightmapBrightness 1.5
 
 	{
 		stage		diffuseMap
@@ -79,11 +80,13 @@ models/mapobjects/nature/grass4
 models/mapobjects/nature/grass4_inv
 {
 	qer_editorImage		models/mapobjects/nature/grass4.tga
-	nonsolid
 	noShadows
 	noselfshadow
 	backsided
 	alphashadow
+	xmap_lightmapSampleOffset 8
+	xmap_forceMeta
+	q3map_lightmapBrightness 1.5
 
 	{
 		stage		diffuseMap
@@ -94,41 +97,40 @@ models/mapobjects/nature/grass4_inv
 }
 
 
-
-
 models/mapobjects/nature/fernleaf
 {
 	qer_editorImage		models/mapobjects/nature/fernleaf.tga
-	xmap_backShader		models/mapobjects/nature/fernleaf_back
-	xmap_lightmapBrightness 2
+	xmap_backshader		models/mapobjects/nature/fernleaf_inv
 	noShadows
 	noselfshadow
-	translucent
-	nonsolid
+	alphashadow
+	xmap_forceMeta
 
 	{
-		stage		diffuseMap
+		stage		diffusemap
 		map		models/mapobjects/nature/fernleaf.tga
 		alphatest 0.5
 	}
 }
 
-models/mapobjects/nature/fernleaf_back
+models/mapobjects/nature/fernleaf_inv
 {
 	qer_editorImage		models/mapobjects/nature/fernleaf.tga
-	xmap_lightmapBrightness 2
-	xmap_invert
 	noShadows
 	noselfshadow
-	translucent
-	nonsolid
+	alphashadow
+	backsided
+	xmap_lightmapSampleOffset 8
+	xmap_forceMeta
 
 	{
-		stage		diffuseMap
+		stage		diffusemap
 		map		models/mapobjects/nature/fernleaf.tga
 		alphatest 0.5
 	}
+	bumpmap            textures/common/nullinv_nm.png
 }
+
 
 models/mapobjects/nature/grass1
 {
@@ -185,20 +187,39 @@ models/mapobjects/nature/grass3_back
 		alphatest 0.5
 	}
 }
-
 models/mapobjects/nature/thistle
 {
-	qer_editorImage		models/mapobjects/nature/thistle.png
-	twosided
-	noShadows
+	qer_editorImage		models/mapobjects/nature/thistle.tga
+	xmap_backshader		models/mapobjects/nature/thistle_inv
+	noshadows
 	noselfshadow
-	nonsolid
+	alphashadow
+	xmap_lightmapSampleOffset 8
+	xmap_forceMeta
 
 	{
 		stage		diffuseMap
-		map		models/mapobjects/nature/thistle.png
+		map		models/mapobjects/nature/thistle.tga
 		alphatest 0.5
 	}
+}
+
+models/mapobjects/nature/thistle_inv
+{
+	qer_editorImage		models/mapobjects/nature/thistle.tga
+	noShadows
+	noselfshadow
+	backsided
+	alphashadow
+	xmap_lightmapSampleOffset 8
+	xmap_forceMeta
+
+	{
+		stage		diffuseMap
+		map		models/mapobjects/nature/thistle.tga
+		alphatest 0.5
+	}
+	bumpmap            textures/common/nullinv_nm.png
 }
 
 models/mapobjects/nature/leaf
@@ -232,6 +253,71 @@ models/mapobjects/nature/leaf_back
 		map		models/mapobjects/nature/leaf.png
 		alphatest 0.5
 	}
+}
+
+textures/trak/nature/leaf1
+{
+	qer_editorImage		textures/trak/nature/leaf1.png
+	noShadows
+	noselfshadow
+	translucent
+	noimpact
+	nonsolid
+	deformvertexes autosprite
+	deformVertexes wave 30 sin 0 8 0 .2 
+	xmap_lightmapBrightness 0
+//	xmap_lightmapAxis z
+	xmap_vertexScale 1
+
+	{
+		stage		diffusemap
+		map		textures/trak/nature/leaf1.tga
+		depthwrite
+		rgbGen identity
+		alphatest 0.5
+	}
+
+  { 
+stage _lightmap
+  tcgen lightmap
+  map _lightmap
+  blendfunc gl_dst_color gl_src_color
+  rgbGen identity
+  }
+
+}
+
+textures/trak/nature/leaf1_nosprite
+{
+	qer_editorImage		textures/trak/nature/leaf1.png
+	xmap_backshader textures/trak/nature/leaf1_nosprite_inv
+	noShadows
+	noselfshadow
+	alphashadow
+
+
+	{
+		stage		diffusemap
+		map		textures/trak/nature/leaf1.tga
+		alphatest 0.5
+	}
+}
+
+textures/trak/nature/leaf1_nosprite_inv
+{
+	qer_editorImage		textures/trak/nature/leaf1.png
+	noShadows
+	noselfshadow
+	backsided
+	alphashadow
+
+
+	{
+		stage		diffusemap
+		map		textures/trak/nature/leaf1.tga
+		alphatest 0.5
+	}
+	bumpmap            textures/common/nullinv_nm.png
 }
 
 
