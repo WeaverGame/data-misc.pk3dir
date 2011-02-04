@@ -234,70 +234,6 @@ models/mapobjects/nature/leaf_back
 	}
 }
 
-textures/trak/nature/leaf1
-{
-	qer_editorImage		textures/trak/nature/leaf1.png
-	noShadows
-	noselfshadow
-	translucent
-	noimpact
-	nonsolid
-	deformvertexes autosprite
-	deformVertexes wave 30 sin 0 8 0 .2 
-	xmap_lightmapBrightness 0
-//	xmap_lightmapAxis z
-	xmap_vertexScale 1
-
-	{
-		stage		diffusemap
-		map		textures/trak/nature/leaf1.tga
-		depthwrite
-		rgbGen identity
-		alphatest 0.5
-	}
-
-  { 
-stage _lightmap
-  tcgen lightmap
-  map _lightmap
-  blendfunc gl_dst_color gl_src_color
-  rgbGen identity
-  }
-
-}
-
-textures/trak/nature/leaf1_nosprite
-{
-	qer_editorImage		textures/trak/nature/leaf1.png
-	xmap_backshader textures/trak/nature/leaf1_nosprite_inv
-	noShadows
-	noselfshadow
-	alphashadow
-
-	{
-		stage		diffusemap
-		map		textures/trak/nature/leaf1.tga
-		alphatest 0.5
-	}
-}
-
-textures/trak/nature/leaf1_nosprite_inv
-{
-	qer_editorImage		textures/trak/nature/leaf1.png
-	xmap_backshader textures/trak/nature/leaf1_nosprite_inv
-	noShadows
-	noselfshadow
-	backsided
-	alphashadow
-
-	{
-		stage		diffusemap
-		map		textures/trak/nature/leaf1.tga
-		alphatest 0.5
-	}
-	bumpmap            textures/common/nullinv_nm.png
-}
-
 
 
 models/mapobjects/nature/trunk
