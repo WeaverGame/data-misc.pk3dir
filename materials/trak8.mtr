@@ -17,6 +17,8 @@ textures/trak/trak8/basewall1d
 }
 
 
+
+
 textures/trak/trak8/beam
 {
 	noshadows
@@ -24,11 +26,15 @@ textures/trak/trak8/beam
 	twosided
 	nonsolid
 	deformvertexes autosprite2
+
+	
 	qer_editorimage		textures/trak/trak8/beam.tga
 	{
 		blend		add
 		map		textures/trak/trak8/beam.tga
+		alphaGen portal 256
 	}
+
 }
 
 textures/trak/trak8/brick
@@ -45,6 +51,14 @@ textures/trak/trak8/brick
 	normalMap		textures/trak/trak8/brick_nm.png
 }
 
+textures/trak/trak8/coals
+{
+    qer_editorimage    models/mapobjects/misc/coals.png
+    
+	diffusemap         models/mapobjects/misc/coals.png
+	specularmap	    	models/mapobjects/misc/coals.png
+}
+
 textures/trak/trak8/cobblestone2
 {
     qer_editorimage    textures/trak/trak8/cobblestone2.png
@@ -52,6 +66,22 @@ textures/trak/trak8/cobblestone2
 	diffusemap         textures/trak/trak8/cobblestone2.png
 	specularmap	    	textures/trak/trak8/cobblestone2_s.png
 	bumpmap            textures/trak/trak8/cobblestone2_nm.png
+}
+
+textures/trak/trak8/grate
+{
+    qer_editorimage    textures/trak/trak8/grate.png
+	noShadows
+	noSelfShadow
+	alphashadow
+	
+	{
+		stage		diffuseMap
+		map		textures/trak/trak8/grate.png
+		alphatest 0.5
+	}
+	specularmap	    	textures/trak/trak8/grate.png
+	bumpmap            textures/trak/trak8/grate_nm.png
 }
 
 textures/trak/trak8/metaltrim1

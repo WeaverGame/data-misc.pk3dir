@@ -1,0 +1,15 @@
+models/mapobjects/misc/coals
+{
+	qer_editorImage		models/mapobjects/misc/coals.png
+	xmap_surfaceLight	5000
+	xmap_lightSubdivide	16
+	xmap_lightImage		models/mapobjects/misc/coals_blend.png
+	xmap_lightRGB 1 0.4 0
+	diffusemap         models/mapobjects/misc/coals.png
+	specularmap	    models/mapobjects/misc/coals.png
+	{
+		stage		glowMap
+		map		models/mapobjects/misc/coals_blend.png
+		blend		add
+	}
+}

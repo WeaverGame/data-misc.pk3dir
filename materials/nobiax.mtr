@@ -1,3 +1,19 @@
+models/mapobjects/nobiax/grass1a_test
+{
+	qer_editorImage		models/mapobjects/nobiax/grass1a.tga
+	noShadows
+	noselfshadow
+	alphashadow
+	twosided
+
+
+	{
+		stage		diffusemap
+		map		models/mapobjects/nobiax/grass1a.tga
+		alphatest 0.5
+	}
+}
+
 models/mapobjects/nobiax/grass1a
 {
 	qer_editorImage		models/mapobjects/nobiax/grass1a.tga
