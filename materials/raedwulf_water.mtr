@@ -10,7 +10,7 @@ textures/raedwulf/water/water1
 	{
 		forceHighQuality
 		stage		liquidMap
-		map		displacemap (textures/kjelll/water1.png)
+		map		textures/kjelll/water1.png
 		scroll	time * 0.02, time * 0.01
 		scale		0.04, 0.04
 		refractionIndex	1.34 // water
@@ -23,10 +23,4 @@ textures/raedwulf/water/water1
 		fogDensity	0.005	// underwater fog 
 		color		0.43, 0.42, 0.41, 0.5	// underwater fog color
 	}
-	{
-		stage		diffuseMap
-		map		_white
-		blend		GL_DST_COLOR, GL_ONE
-	}
-	specularMap		_white
 }
