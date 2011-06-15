@@ -151,7 +151,7 @@ models/mapobjects/nature/glowplant1
 {
 	qer_editorImage		models/mapobjects/nature/glowplant1.png
 	xmap_backshader 	models/mapobjects/nature/glowplant1_inv
-	xmap_surfaceLight	5000
+	xmap_surfaceLight	8000
 	xmap_lightSubdivide	16
 	xmap_lightImage		models/mapobjects/nature/glowplant1_blend.png
 	xmap_lightRGB 0.6 0.75 1
@@ -175,7 +175,7 @@ models/mapobjects/nature/glowplant1
 models/mapobjects/nature/glowplant1_inv
 {
 	qer_editorImage		models/mapobjects/nature/glowplant1.png
-	xmap_surfaceLight	5000
+	xmap_surfaceLight	8000
 	xmap_lightSubdivide	16
 	xmap_lightImage		models/mapobjects/nature/glowplant1_blend.png
 	xmap_lightRGB 0.6 0.75 1
