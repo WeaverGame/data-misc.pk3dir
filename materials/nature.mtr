@@ -46,7 +46,6 @@ textures/trak/nature/grass3
 {
 	qer_editorImage		textures/trak/nature/grass3.tga
 	noShadows
-	noselfshadow
 	nonsolid
 	deformvertexes autosprite2
 	xmap_vertexscale 2
@@ -64,7 +63,6 @@ models/mapobjects/nature/grass4
 	qer_editorImage		models/mapobjects/nature/grass4.tga
 	xmap_backshader		models/mapobjects/nature/grass4_inv
 	noshadows
-	noselfshadow
 	alphashadow
 	xmap_lightmapSampleOffset 8
 	xmap_forceMeta
@@ -81,7 +79,6 @@ models/mapobjects/nature/grass4_inv
 {
 	qer_editorImage		models/mapobjects/nature/grass4.tga
 	noShadows
-	noselfshadow
 	backsided
 	alphashadow
 	xmap_lightmapSampleOffset 8
@@ -102,7 +99,6 @@ models/mapobjects/nature/fernleaf
 	qer_editorImage		models/mapobjects/nature/fernleaf.tga
 	xmap_backshader		models/mapobjects/nature/fernleaf_inv
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -117,7 +113,6 @@ models/mapobjects/nature/fernleaf_inv
 {
 	qer_editorImage		models/mapobjects/nature/fernleaf.tga
 	noShadows
-	noselfshadow
 	alphashadow
 	backsided
 	xmap_lightmapSampleOffset 8
@@ -137,7 +132,6 @@ models/mapobjects/nature/grass1
 	qer_editorImage		models/mapobjects/nature/grass1.png
 	twosided
 	noShadows
-	noselfshadow
 	nonsolid
 
 	{
@@ -156,7 +150,6 @@ models/mapobjects/nature/glowplant1
 	xmap_lightImage		models/mapobjects/nature/glowplant1_blend.png
 	xmap_lightRGB 0.6 0.75 1
 	noShadows
-	noselfshadow
 	nonsolid
 	alphashadow
 
@@ -181,7 +174,6 @@ models/mapobjects/nature/glowplant1_inv
 	xmap_lightRGB 0.6 0.75 1
 	backsided
 	noShadows
-	noselfshadow
 	nonsolid
 	alphashadow
 
@@ -213,7 +205,6 @@ models/mapobjects/nature/grass3
 	qer_editorImage		models/mapobjects/nature/grass3.png
 	xmap_backShader		models/mapobjects/nature/grass3_back
 	noShadows
-	noselfshadow
 	nonsolid
 
 
@@ -230,7 +221,6 @@ models/mapobjects/nature/grass3_back
 	xmap_lightmapBrightness 2
 	xmap_invert
 	noShadows
-	noselfshadow
 	nonsolid
 
 	{
@@ -244,7 +234,6 @@ models/mapobjects/nature/thistle
 	qer_editorImage		models/mapobjects/nature/thistle.tga
 	xmap_backshader		models/mapobjects/nature/thistle_inv
 	noshadows
-	noselfshadow
 	alphashadow
 	xmap_lightmapSampleOffset 8
 	xmap_forceMeta
@@ -260,7 +249,6 @@ models/mapobjects/nature/thistle_inv
 {
 	qer_editorImage		models/mapobjects/nature/thistle.tga
 	noShadows
-	noselfshadow
 	backsided
 	alphashadow
 	xmap_lightmapSampleOffset 8
@@ -278,7 +266,6 @@ textures/trak/nature/leaf1
 {
 	qer_editorImage		textures/trak/nature/leaf1.png
 	//xmap_backshader		textures/trak/nature/leaf1
-	noselfshadow
 	translucent
 	noimpact
 	nonsolid

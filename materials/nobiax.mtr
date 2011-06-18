@@ -2,7 +2,6 @@ models/mapobjects/nobiax/grass1a_test
 {
 	qer_editorImage		models/mapobjects/nobiax/grass1a.tga
 	noShadows
-	noselfshadow
 	alphashadow
 	twosided
 
@@ -19,7 +18,6 @@ models/mapobjects/nobiax/grass1a
 	qer_editorImage		models/mapobjects/nobiax/grass1a.tga
 	xmap_backshader models/mapobjects/nobiax/grass1a_inv
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -36,7 +34,6 @@ models/mapobjects/nobiax/grass1a_inv
 	qer_editorImage		models/mapobjects/nobiax/grass1a.tga
 	backsided
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -54,7 +51,6 @@ models/mapobjects/nobiax/grass1b
 	qer_editorImage		models/mapobjects/nobiax/grass1b.tga
 	xmap_backshader models/mapobjects/nobiax/grass1b_inv
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -71,7 +67,6 @@ models/mapobjects/nobiax/grass1b_inv
 	qer_editorImage		models/mapobjects/nobiax/grass1b.tga
 	backsided
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -89,7 +84,6 @@ models/mapobjects/nobiax/grass1c
 	qer_editorImage		models/mapobjects/nobiax/grass1c.tga
 	xmap_backshader models/mapobjects/nobiax/grass1c_inv
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -106,7 +100,6 @@ models/mapobjects/nobiax/grass1c_inv
 	qer_editorImage		models/mapobjects/nobiax/grass1c.tga
 	backsided
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -124,7 +117,6 @@ models/mapobjects/nobiax/grass1d
 	qer_editorImage		models/mapobjects/nobiax/grass1d.tga
 	xmap_backshader models/mapobjects/nobiax/grass1d_inv
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -141,7 +133,6 @@ models/mapobjects/nobiax/grass1d_inv
 	qer_editorImage		models/mapobjects/nobiax/grass1d.tga
 	backsided
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -159,7 +150,6 @@ models/mapobjects/nobiax/grass1e
 	qer_editorImage		models/mapobjects/nobiax/grass1e.tga
 	xmap_backshader models/mapobjects/nobiax/grass1e_inv
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -176,7 +166,6 @@ models/mapobjects/nobiax/grass1e_inv
 	qer_editorImage		models/mapobjects/nobiax/grass1e.tga
 	backsided
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -194,7 +183,6 @@ models/mapobjects/nobiax/grass1f
 	qer_editorImage		models/mapobjects/nobiax/grass1f.tga
 	xmap_backshader models/mapobjects/nobiax/grass1f_inv
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 
@@ -211,7 +199,6 @@ models/mapobjects/nobiax/grass1f_inv
 	qer_editorImage		models/mapobjects/nobiax/grass1f.tga
 	backsided
 	noShadows
-	noselfshadow
 	alphashadow
 	xmap_forceMeta
 

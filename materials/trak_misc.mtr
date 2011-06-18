@@ -8,7 +8,7 @@ models/mapobjects/misc/coals
 	diffusemap         models/mapobjects/misc/coals.png
 	specularmap	    models/mapobjects/misc/coals.png
 	{
-		stage		glowMap
+//		stage		glowMap
 		map		models/mapobjects/misc/coals_blend.png
 		blend		add
 	}

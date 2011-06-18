@@ -372,8 +372,8 @@ textures/trak/trak8/wood2_butt
     qer_editorimage    textures/trak/trak8/wood2_butt.png
     
 	diffusemap         textures/trak/trak8/wood2_butt.png
-	specularmap	    	textures/trak/trak8/wood2_butt_s.png
-	bumpmap            textures/trak/trak8/wood2_butt_nm.png
+	//specularmap	    	textures/trak/trak8/wood2_butt_s.png
+	//bumpmap            textures/trak/trak8/wood2_butt_nm.png
 }
 
 textures/trak/trak8/wood2b
@@ -381,8 +381,8 @@ textures/trak/trak8/wood2b
     qer_editorimage    textures/trak/trak8/wood2b.png
     
 	diffusemap         textures/trak/trak8/wood2b.png
-	specularmap	    	textures/trak/trak8/wood2_s.png
-	bumpmap            textures/trak/trak8/wood2_nm.png
+	//specularmap	    	textures/trak/trak8/wood2_s.png
+	//bumpmap            textures/trak/trak8/wood2_nm.png
 }
 
 textures/trak/trak8/shingles
