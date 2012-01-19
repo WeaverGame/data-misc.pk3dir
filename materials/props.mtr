@@ -121,3 +121,12 @@ models/mapobjects/props/table
 	specularmap	    models/mapobjects/props/table_s.png
 	bumpmap            models/mapobjects/props/table_nm.png
 }
+
+models/mapobjects/props/trapdoor
+{
+    qer_editorimage    models/mapobjects/props/trapdoor.png
+    
+	diffusemap         models/mapobjects/props/trapdoor.png
+	specularmap	    models/mapobjects/props/trapdoor_s.png
+	bumpmap            models/mapobjects/props/trapdoor_nm.png
+}

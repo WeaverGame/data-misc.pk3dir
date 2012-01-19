@@ -68,6 +68,16 @@ textures/trak/trak8/cobblestone2
 	bumpmap            textures/trak/trak8/cobblestone2_nm.png
 }
 
+textures/trak/trak8/cobblestone3
+{
+    qer_editorimage    textures/trak/trak8/cobblestone3.png
+    
+	diffusemap         textures/trak/trak8/cobblestone3.png
+	specularmap	    	textures/trak/trak8/cobblestone3_s.png
+	bumpmap            textures/trak/trak8/cobblestone3_nm.png
+}
+
+
 textures/trak/trak8/grate
 {
     qer_editorimage    textures/trak/trak8/grate.png
@@ -110,6 +120,15 @@ textures/trak/trak8/cobblestone
 	}
 	specularMap		textures/trak/trak8/cobblestone_s.png
 	normalMap		textures/trak/trak8/cobblestone_nm.png
+}
+
+textures/trak/trak8/indoorplaster
+{
+    qer_editorimage    textures/trak/trak8/indoorplaster.png
+    
+	diffusemap         textures/trak/trak8/indoorplaster.png
+	specularmap	    	textures/trak/trak8/indoorplaster_s.png
+	bumpmap            textures/trak/trak8/indoorplaster_nm.png
 }
 
 textures/trak/trak8/metaltrim2
@@ -401,4 +420,13 @@ textures/trak/trak8/shingles2
 	diffusemap         textures/trak/trak8/shingles2.png
 	specularmap	    	textures/trak/trak8/shingles2_s.png
 	bumpmap            textures/trak/trak8/shingles2_nm.png
+}
+
+textures/trak/trak8/woodtrim
+{
+    qer_editorimage    textures/trak/trak8/woodtrim.png
+    
+	diffusemap         textures/trak/trak8/woodtrim.png
+	specularmap	    	textures/trak/trak8/woodtrim_s.png
+	bumpmap            textures/trak/trak8/woodtrim_nm.png
 }
