@@ -161,7 +161,7 @@ textures/trak/trak8/metaltrim2
 
 textures/trak/trak8/petals1
 {
-	qer_editorImage		textures/trak/trak8/petals.png
+	qer_editorImage		textures/trak/castle/petals.png
 	nonsolid
 	noshadows
 	translucent
@@ -169,7 +169,7 @@ textures/trak/trak8/petals1
 	twosided
 	
 	{
-		map		textures/trak/trak8/petals.png
+		map		textures/trak/castle/petals.png
 		tcmod scroll 0 -0.2
 		alphatest 0.5
 	}  
@@ -177,11 +177,11 @@ textures/trak/trak8/petals1
 
 textures/trak/trak8/petals1_decal
 {
-	qer_editorImage		textures/trak/trak8/petals.png
+	qer_editorImage		textures/trak/castle/petals.png
 	polygonOffset
 	
 	{
-		map		textures/trak/trak8/petals.png
+		map		textures/trak/castle/petals.png
 		alphatest 0.5
 	}  
 }
