@@ -7,16 +7,30 @@ textures/trak/trak8/basewall1a
 	bumpmap            models/mapobjects/feudal/basewall1a_nm.png
 }
 
+
+
 textures/trak/trak8/basewall1d
 {
-    qer_editorimage    models/mapobjects/feudal/basewall1d.png
+    qer_editorimage    models/mapobjects/feudal/basewall1d
     
 	diffusemap         models/mapobjects/feudal/basewall1d.png
 	specularmap	    	models/mapobjects/feudal/basewall1d_s.png
 	bumpmap            models/mapobjects/feudal/basewall1d_nm.png
 }
 
-
+textures/trak/trak8/basicflare1
+{
+	qer_editorImage		textures/trak/trak8/basicflare1.png
+	nonsolid
+	noshadows
+	translucent
+	deformvertexes autosprite
+	
+	{
+		map		textures/trak/trak8/basicflare1.png
+		blend add
+	}  
+}
 
 
 textures/trak/trak8/beam
@@ -143,6 +157,44 @@ textures/trak/trak8/metaltrim2
 	}
 	specularMap		textures/trak/trak8/metaltrim2_s.png
 	normalMap		textures/trak/trak8/metaltrim2_nm.png
+}
+
+textures/trak/trak8/petals1
+{
+	qer_editorImage		textures/trak/trak8/petals.png
+	nonsolid
+	noshadows
+	translucent
+	deformVertexes wave 80 sin 0 100 0 .07 
+	twosided
+	
+	{
+		map		textures/trak/trak8/petals.png
+		tcmod scroll 0 -0.2
+		alphatest 0.5
+	}  
+}
+
+textures/trak/trak8/petals1_decal
+{
+	qer_editorImage		textures/trak/trak8/petals.png
+	polygonOffset
+	
+	{
+		map		textures/trak/trak8/petals.png
+		alphatest 0.5
+	}  
+}
+
+
+
+textures/trak/trak8/rooftiles
+{
+    qer_editorimage    textures/trak/trak8/rooftiles.png
+    
+	diffusemap         textures/trak/trak8/rooftiles.png
+	specularmap	    	textures/trak/trak8/rooftiles_s.png
+	bumpmap            textures/trak/trak8/rooftiles_nm.png
 }
 
 textures/trak/trak8/shingles2a
