@@ -145,21 +145,22 @@ models/mapobjects/nature/glowplant1
 {
 	qer_editorImage		models/mapobjects/nature/glowplant1.png
 	xmap_backshader 	models/mapobjects/nature/glowplant1_inv
-	xmap_surfaceLight	8000
+	xmap_surfaceLight	6000
 	xmap_lightSubdivide	16
 	xmap_lightImage		models/mapobjects/nature/glowplant1_blend.png
-	xmap_lightRGB 0.6 0.75 1
+	xmap_lightRGB 0.75 0.95 1
 	noShadows
 	nonsolid
-	alphashadow
+	twosided
 
 	{
 		stage		diffuseMap
 		map		models/mapobjects/nature/glowplant1.png
+		depthwrite
+		rgbGen identityLighting
 		alphatest 0.5
 	}
 	{
-		stage		glowMap
 		map		models/mapobjects/nature/glowplant1_blend.png
 		blend		add
 	}
@@ -168,14 +169,13 @@ models/mapobjects/nature/glowplant1
 models/mapobjects/nature/glowplant1_inv
 {
 	qer_editorImage		models/mapobjects/nature/glowplant1.png
-	xmap_surfaceLight	8000
+	xmap_surfaceLight	6000
 	xmap_lightSubdivide	16
 	xmap_lightImage		models/mapobjects/nature/glowplant1_blend.png
-	xmap_lightRGB 0.6 0.75 1
+	xmap_lightRGB 0.75 0.95 1
 	backsided
 	noShadows
 	nonsolid
-	alphashadow
 
 	{
 		stage		diffuseMap
@@ -183,7 +183,6 @@ models/mapobjects/nature/glowplant1_inv
 		alphatest 0.5
 	}
 	{
-		stage		glowMap
 		map		models/mapobjects/nature/glowplant1_blend.png
 		blend		add
 	}
@@ -229,6 +228,25 @@ models/mapobjects/nature/grass3_back
 		alphatest 0.5
 	}
 }
+
+textures/trak/nature/grass3_autosprite
+{
+	qer_editorImage		textures/trak/nature/grass3.png
+	noshadows
+	translucent
+	twosided
+	nonsolid
+	deformVertexes autosprite2
+
+	{
+		stage		diffuseMap
+		map		textures/trak/nature/grass3.png
+		depthwrite
+		rgbGen identityLighting
+		alphatest 0.5
+	}
+}
+
 models/mapobjects/nature/thistle
 {
 	qer_editorImage		models/mapobjects/nature/thistle.tga
@@ -275,6 +293,39 @@ textures/trak/nature/leaf1
 	{
 		stage		diffusemap
 		map		textures/trak/nature/leaf1.tga
+		depthwrite
+		rgbGen identityLighting
+		alphatest 0.5
+	}
+}
+
+textures/trak/nature/leaf1_nodeforms
+{
+	qer_editorImage		textures/trak/nature/leaf1.png
+	translucent
+	noimpact
+	nonsolid
+
+	{
+		stage		diffusemap
+		map		textures/trak/nature/leaf1.tga
+		depthwrite
+		rgbGen identityLighting
+		alphatest 0.5
+	}
+}
+
+textures/trak/nature/leaf1_tiling
+{
+	qer_editorImage		textures/trak/nature/leaf1_tiling.png
+	translucent
+	noimpact
+	nonsolid
+	twosided
+
+	{
+		stage		diffusemap
+		map		textures/trak/nature/leaf1_tiling.tga
 		depthwrite
 		rgbGen identityLighting
 		alphatest 0.5

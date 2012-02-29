@@ -1,3 +1,29 @@
+models/mapobjects/light_props/candelabra_blue
+{
+    qer_editorimage    models/mapobjects/light_props/candelabra_blue.png
+	noShadows
+	alphashadow
+    
+	diffusemap         models/mapobjects/light_props/candelabra_blue.png
+	normalMap		models/mapobjects/feudal/NULL_nm.png
+	specularmap	    models/mapobjects/light_props/candelabra_blue.png
+}
+
+models/mapobjects/light_props/candelabra_blue_light
+{
+	qer_editorImage		models/mapobjects/cpd/objective_fx.png
+	nonsolid
+	noshadows
+	translucent
+	twosided
+	
+	{
+		map		models/mapobjects/cpd/objective_fx.png
+		tcmod scroll 0 -0.2
+		blend add
+	}  
+}
+
 models/mapobjects/light_props/candle
 {
     qer_editorimage    models/mapobjects/light_props/candle.png
@@ -10,6 +36,7 @@ models/mapobjects/light_props/candle
 models/mapobjects/light_props/candlecluster1
 {
     qer_editorimage    models/mapobjects/light_props/candlecluster1.png
+	noShadows
     
 	diffusemap         models/mapobjects/light_props/candlecluster1.png
 	specularmap	    models/mapobjects/light_props/candlecluster1_s.png
@@ -96,29 +123,15 @@ models/mapobjects/light_props/torchgr8
 {
 	qer_editorImage		models/mapobjects/light_props/torchgr8.png
 	noShadows
-	alphashadow
+	twoSided
 
 	{
 		stage		diffuseMap
 		map		models/mapobjects/light_props/torchgr8.png
+		depthwrite
+		rgbGen identityLighting
 		alphatest 0.5
 	}
 	normalMap		models/mapobjects/feudal/NULL_nm.png
 	specularMap		tmodels/mapobjects/light_props/torchgr8_s.png
-}
-
-
-models/mapobjects/light_props/torchgr8_back
-{
-	qer_editorImage		models/mapobjects/light_props/torchgr8.png
-	backsided
-	noShadows
-
-	{
-		stage		diffuseMap
-		map		models/mapobjects/light_props/torchgr8.png
-		alphatest 0.5
-	}
-	normalMap		textures/trak/light_props/NULL_nm.png
-	specularMap		textures/trak/light_props/torchgr8_s.png
 }

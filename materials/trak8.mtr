@@ -25,6 +25,7 @@ textures/trak/trak8/basicflare1
 	noshadows
 	translucent
 	deformvertexes autosprite
+	twosided
 	
 	{
 		map		textures/trak/trak8/basicflare1.png
@@ -32,6 +33,35 @@ textures/trak/trak8/basicflare1
 	}  
 }
 
+textures/trak/trak8/basicflare1a
+{
+	qer_editorImage		textures/trak/trak8/basicflare1a.png
+	nonsolid
+	noshadows
+	translucent
+	deformvertexes autosprite
+	twosided
+	
+	{
+		map		textures/trak/trak8/basicflare1a.png
+		blend add
+	}  
+}
+
+textures/trak/trak8/basicflare1_red
+{
+	qer_editorImage		textures/trak/trak8/basicflare1_red.png
+	nonsolid
+	noshadows
+	translucent
+	deformvertexes autosprite
+	twosided
+	
+	{
+		map		textures/trak/trak8/basicflare1_red.png
+		blend add
+	}  
+}
 
 textures/trak/trak8/beam
 {
@@ -171,6 +201,8 @@ textures/trak/trak8/petals1
 	{
 		map		textures/trak/castle/petals.png
 		tcmod scroll 0 -0.2
+		depthwrite
+		rgbGen identityLighting
 		alphatest 0.5
 	}  
 }
@@ -182,6 +214,8 @@ textures/trak/trak8/petals1_decal
 	
 	{
 		map		textures/trak/castle/petals.png
+		depthwrite
+		rgbGen identityLighting
 		alphatest 0.5
 	}  
 }
