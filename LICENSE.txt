@@ -1,0 +1,49 @@
+Weaver Assets
+License(s):
+	CC-BY-SA 3.0
+These assets are located at:	*else*
+===============================================================
+Water texture
+By: kjelll
+License(s):
+	CC-BY-SA 3.0
+These assets are located at:	textures/kjell/water1.png
+===============================================================
+Grass models by Nobiax
+http://nobiax.deviantart.com/art/Free-Grass-Pack-2-179149133
+http://nobiax.deviantart.com/art/Free-Grass-Pack-179052021?
+By: Nobiax
+License(s):
+	CC-BY-SA 3.0 (by correspondence with author)
+These assets are located at:	models/mapobjects/nobiax/grass1a.ASE
+								models/mapobjects/nobiax/grass1a.png
+								models/mapobjects/nobiax/grass1b.ASE
+								models/mapobjects/nobiax/grass1b.png
+								models/mapobjects/nobiax/grass1c.ASE
+								models/mapobjects/nobiax/grass1c.png
+								models/mapobjects/nobiax/grass1d.ASE
+								models/mapobjects/nobiax/grass1d.png
+								models/mapobjects/nobiax/grass1e.ASE
+								models/mapobjects/nobiax/grass1e.png
+								models/mapobjects/nobiax/grass1f.ASE
+								models/mapobjects/nobiax/grass1f.png
+===============================================================
+Miramar & Grimm Night Skyboxes
+http://www.quake3world.com/forum/viewtopic.php?t=9242
+http://www.zfight.com/
+By: Jochum "Hipshot" Skoglund
+License(s):
+	"do whatever you want"
+These assets are located at:	cubemaps/hipshot/grimmnight_nx.png
+								cubemaps/hipshot/grimmnight_ny.png
+								cubemaps/hipshot/grimmnight_nz.png
+								cubemaps/hipshot/grimmnight_px.png
+								cubemaps/hipshot/grimmnight_py.png
+								cubemaps/hipshot/grimmnight_pz.png
+								cubemaps/hipshot/miramar_nx.png
+								cubemaps/hipshot/miramar_ny.png
+								cubemaps/hipshot/miramar_nz.png
+								cubemaps/hipshot/miramar_px.png
+								cubemaps/hipshot/miramar_py.png
+								cubemaps/hipshot/miramar_pz.png
+===============================================================
